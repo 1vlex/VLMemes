@@ -10,7 +10,7 @@
 
 > Чтобы увидеть ноутбук вместе с выводами ячеек:
 > - можно скачать репозиторий и открыть `VLMemes.ipynb` локально через Jupyter Notebook или JupyterLab;
-> - либо воспользоваться nbviewer: зайти на https://nbviewer.org и вставить туда ссылку на ноутбук с GitHub.
+> - либо откройте мой проект из коллаба: https://colab.research.google.com/drive/1il4QQeCIQY6JRoOJJbT1Uc2RCBksfR8D?usp=sharing
 
 ---
 
