@@ -139,26 +139,3 @@ jupyter notebook
 
 Для комфортного запуска Qwen2.5-VL-3B-Instruct желательна **GPU** с достаточным объёмом памяти.
 На CPU модель тоже запустится, но будет работать заметно медленнее.
-
----
-
-## Про Colab-ячейку с `pip install`
-
-В ноутбуке есть ячейка вида:
-
-```python
-!pip -q install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
-!pip -q install "transformers>=4.44.2" accelerate bitsandbytes datasets pillow scikit-learn matplotlib opencv-python pandas einops
-!pip -q install easyocr
-
-# пробуем установить pytorch-grad-cam...
-...
-```
-
-Эта ячейка нужна в первую очередь для **запуска в Google Colab**.
-
-Если вы запустите проект локально и ставишь зависимости через `requirements.txt`, то:
-
-- Ячейка **не обязательна** и может быть **спокойно удалена**
-
-
