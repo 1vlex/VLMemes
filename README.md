@@ -56,11 +56,9 @@
 ```text
 .
 ├─ VLMemes.ipynb
-├─ memes_project/
-│   ├─ memes/
-│   │   ├─ Негативно/
-│   │   └─ Нейтрально/
-│   └─ 
+├─ memes/
+│   ├─ Негативно/
+│   └─ Нейтрально/
 ├─ requirements.txt
 ├─ .gitignore
 └─ README.md
